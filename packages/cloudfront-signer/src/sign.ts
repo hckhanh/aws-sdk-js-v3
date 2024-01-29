@@ -1,4 +1,4 @@
-import { createSign } from "crypto";
+import { createSign } from "node:crypto";
 
 /** Input type to getSignedUrl and getSignedCookies. */
 export type CloudfrontSignInput = CloudfrontSignInputWithParameters | CloudfrontSignInputWithPolicy;
